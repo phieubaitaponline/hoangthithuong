@@ -1218,7 +1218,7 @@ app.addEventListener('click',e=>{
    Chỉ THÊM vào engine TO5 bằng cách bọc hàm, không sửa hàm gốc. ================= */
 (function(){
 const T3=['clock-set','shade-grid'];
-TYPE_LABEL['clock-set']='Quay kim đồng hồ'; TYPE_LABEL['shade-grid']='Tô màu';
+TYPE_LABEL['clock-set']='Quay kim đồng hồ'; TYPE_LABEL['shade-grid']='Tô màu'; TYPE_LABEL['image-mcq']='Chọn hình đúng';
 const NS='http://www.w3.org/2000/svg';
 
 const _initV=initV; initV=function(q){ if(q.type==='clock-set')return {h:0,m:0,t:0}; if(q.type==='shade-grid')return []; return _initV(q); };
